@@ -1,1 +1,1 @@
-web: hypercorn -b 0.0.0.0:${8000} "app.main:app"
+web: hypercorn -b 0.0.0.0:${8000} "main:app"
